@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\Utama@index');
-Route::get('/Contact', 'App\Http\Controllers\Contact@contact');
 Route::get('/Login', 'App\Http\Controllers\Login@index');
 Route::post('/Daftar', 'App\Http\Controllers\Login@register');
 Route::post('/signIn', 'App\Http\Controllers\Login@signIn');
